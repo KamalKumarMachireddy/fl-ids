@@ -1,0 +1,31 @@
+# requirements.txt
+# Core Machine Learning
+tensorflow==2.15.0
+# Note: Keras is included within TensorFlow 2.x as tf.keras
+
+# Web Framework and API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0  # Includes uvicorn and standard extras like websockets, cors
+pydantic==2.5.0
+
+# Data Processing and Science
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+matplotlib==3.7.3
+seaborn==0.12.2
+
+# Apache Kafka
+kafka-python==2.0.2
+
+# Streamlit for Dashboard
+streamlit==1.28.1
+
+# Plotting (if you decide to use plotly later)
+plotly==5.15.0
+
+# System Monitoring
+psutil==5.9.5
+
+# Utilities
+PyYAML==6.0
